@@ -2,7 +2,7 @@ import React from 'react'
 import {Box, Stack, Typography} from '@mui/material'
 import {Button} from "@mui/material"
 
-import HeroBannerImage from "../assets/images/banner.png"
+import HeroBannerImage from "../assets/images/banner.jpg"
 
 const HeroBanner = () => {
   return (
@@ -11,10 +11,10 @@ const HeroBanner = () => {
             PowerPulse
         </Typography>
         <Typography fontWeight={700} sx={{ fontSize:{ lg:'44px', xs:'40px'} }} mb="23px" mt="30px">
-            Breathe, Sweat <br /> and Repeat
+            Breathe, Sweat, Rest <br /> and Repeat
         </Typography>
         <Typography fontSize="22px" fontFamily="Alegreya" lineHeight='35px' mb={4}>
-            Check out the most effective Exercises
+            Check Through Our Exercise Library
         </Typography>
         <Stack>
       <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#2E7D32', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Find Exercises</a>
