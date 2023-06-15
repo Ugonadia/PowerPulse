@@ -2,7 +2,7 @@ import React from 'react'
 import {Box, Stack, Typography} from '@mui/material'
 import {Button} from "@mui/material"
 
-import HeroBannerImage from "../assets/images/Banner.png"
+import HeroBannerImage from "../assets/images/banner.png"
 
 const HeroBanner = () => {
   return (
@@ -16,9 +16,9 @@ const HeroBanner = () => {
         <Typography fontSize="22px" fontFamily="Alegreya" lineHeight='35px' mb={4}>
             Check out the most effective Exercises
         </Typography>
-        <Button variant='contained' color='success' href="#exercises" sx={{ padding:'10px'}}>
-            Find More Exercises
-        </Button>
+        <Stack>
+      <a href="#exercises" style={{ marginTop: '45px', textDecoration: 'none', width: '200px', textAlign: 'center', background: '#2E7D32', padding: '14px', fontSize: '22px', textTransform: 'none', color: 'white', borderRadius: '4px' }}>Find Exercises</a>
+    </Stack>
         <Typography fontWeight={600} color="#2E7D32" sx={{ opacity: 0.1, display: {lg:'block', xs: 'none'}, fontSize: "200px" }} >
             PowerPulse
         </Typography>
